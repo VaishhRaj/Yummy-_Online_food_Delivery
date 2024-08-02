@@ -1,0 +1,44 @@
+@charset "UTF-8";
+ 
+        .login-box {
+            width: 400px;
+            margin: auto;
+            background: #ff5eff;
+            padding: 20px;
+            border-radius: 5px;
+            border:2px #db00db;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            margin-top: 100px;
+        }
+        .login-box input[type="text"],
+        .login-box input[type="password"],.login-box input[type="email"],textarea,
+        option,select,input[type="number"] {
+            width: calc(100% - 20px);
+            background-color: #ff5eff;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 2px solid #e600e6;
+            border-radius: 3px;
+        }
+        .login-box input[type="submit"] {
+            background: #d81ee1;
+            color: #400040;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .login-box input[type="submit"]:hover {
+            background: rgb(181,  31, 224);
+        }
+        input[type="submit"] {
+            background: #d81ee1;
+            color: #400040;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        input[type="submit"]:hover {
+            background: rgb(181,  31, 224);
+        }
